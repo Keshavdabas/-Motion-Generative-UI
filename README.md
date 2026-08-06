@@ -4,28 +4,6 @@ An interactive web application showcasing **Intentional Motion Button Choreograp
 
 ---
 
-## How to Run in VS Code & Open in Chrome Browser
-
-### 1. Open in VS Code
-Open VS Code and choose **File > Open Folder...**, then select:
-```
-C:\Users\Keshav Dabas\.gemini\antigravity\scratch\motion-generative-ui
-```
-
-### 2. Start the Local Development Server
-Open the terminal in VS Code (`Ctrl + ~`) or PowerShell and execute:
-```bash
-npm run dev
-```
-
-### 3. Open in Google Chrome Browser
-Once started, open Google Chrome and navigate to:
-```
-http://localhost:3000
-```
-
----
-
 ## 🎨 Motion Design Tokens & Easing Rationale
 
 Every state change in the button system is a deliberate transition designed with compositor-friendly GPU properties (`transform`, `opacity`) to eliminate layout thrashing:
