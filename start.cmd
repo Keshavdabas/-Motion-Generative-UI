@@ -1,0 +1,3 @@
+@echo off
+echo Starting Motion & Generative UI App...
+npm run dev
